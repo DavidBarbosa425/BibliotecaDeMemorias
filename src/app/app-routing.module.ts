@@ -20,6 +20,10 @@ const routes: Routes = [
     component: ListarPensamentoComponent
   },
   {
+    path: 'pensamentos/listarPensamento',
+    component: ListarPensamentoComponent
+  },
+  {
     path: 'pensamentos/excluirPensamento/:id',
     component: ExcluirPensamentoComponent
   },
